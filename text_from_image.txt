@@ -1,0 +1,139 @@
+ 
+
+ 
+
+mySite GmbH + StraßeStraße 123 - 12345 Stadt
+
+Grohe AG
+
+z.H. Max Mustermann
+MusterName
+StraßeStraße 123
+12345 Stadt
+
+eg.
+eu 7
+
+  
+    
+
+NR
+T un be er AN Re m
+eamdalir Oi.
+th, BI on
+tt
+as
+
+ 
+
+mySite köln GmbH
+StraßeStraße 123
+12345 Stadt
+
+Telefon: 0221/12345-0
+Rechnungsanschrift Telefax: 0221/12345-10
+Firma AG
+Dept. KFA 3
+Postfach 1234 ‚
+
+12345 Stadt
+
+Lieferschein 123456
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Kunden Nr: 12345 Bestellt am: 01.01.1900 Köln, 01.01.1900
+Auftrag Nr.: 123456 Bestellt von: Herrn Max Mustermann
+Bestell-Nr.: 1234567890 Versand: 01.01.1900
+HG Seite: 1
+
+Pos. Menge Einheit Artikelnummer nachliefern:
+001 123-123456 1
+
+Logitech Wireless Mouse M705
+
+Kompakte 6-Tasten-Lasermaus mit 1.000 dpi für eine
+
+flüssige Mauszeigersteuerung, umschaltbares Tastenrad für
+
+hyperschnelle Bildläufe, winziger Unifying-Empfänger für bis
+
+zu 6 kompatible Geräte an einem Empfänger, komfortables
+
+Design, drei Daumentasten
+002 1 123-123456
+
+Logitech Wireless Combo MK520
+
+Kabelloses Tastatur-Maus-Set mit eleganter Tastatur und
+
+komfortabler 3-Tasten-Lasermaus, flüsterleisenLogitech
+
+Incurve-Tasten für eine richtige Fingerhaltung und Unifying-
+
+Empfänger für bis zu 6 kompatible Geräte an einem USB- '
+
+Empfänger.
+003 1 123123456
+
+Lenovo ThinkVision T2424z 23.8" LED Monitor -Grohe
+
+SBO-
+
+23.8" FHD 1920 x 1080 ® 178°/178° viewing angle ® LED
+
+Backlight panel e 250 nits brightness «e 1000:1 contrast ratio
+
+e /ms response time « 72% color gamut and 16.7M colors
+
+e Anti-glare screen e 1x VGA « 1x HDMI1.4 e 1x DP1.2 ® 2x
+
+USB3.0 downstream, 1x USB3.0 upstream ® 2x 3w speaker
+
++ headset «e Webcam + MIC ® 1x Audio out
+
+SN : V1234567
+004 1 123123456
+
+Geschäftsführer: Unnütz Mustermann
+UST. ID: DE123456789
+Handelsregister: ABC 12345
+
+Lenovo ThinkPad T460 deutsch -Grohe SBO-
+
+Übertrag
+
+ 
+
+ 
+
+Steuernummer: 123/1234/1234
+http://www.mySite.de
+E-mail: info@mySite.de
+
+IBAN: DE01 1234 1234 1234 1234 12
+Swift / BIC: ABCDEFGH
+
+Bankverbindung :
+MeineBank
+
+ 
+
+ 
+
