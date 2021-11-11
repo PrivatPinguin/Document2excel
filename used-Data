@@ -1,0 +1,37 @@
+M.	Model / Ware
+
+M.	Menge 
+
+C.	Seriennummer
+
+C.	PC-Name
+
+C.	MAC-Adresse
+
+M.	Bestellnummer
+
+C.	IMEI
+
+M.	Besteller
+
+C.	Bestell-ID
+
+N	Besteller Informiert
+
+C.	User
+
+C.	User-ID
+
+M.	Angekommen
+
+N	Ausgabe
+
+M.	Lieferschein (Pfad/zur/datei.pdf)
+
+C.	Ausgabeschein
+
+C.	Eingereichtet
+
+C.	Bemerkung
+
+C	Zubehör
