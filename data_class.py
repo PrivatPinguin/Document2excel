@@ -7,12 +7,13 @@ class product_data:
 		self.pc_name = ''
 		self.mac_addr = ''
 	
-	def check(this_product_data:product_data):
+	def check(self, this_product_data):
 		if type(this_product_data) == product_data:
-			
+			return True
 		else:
-			Print('Notwendige Daten fehlen. Bitte von Hand nachtragen.')
+			print('Notwendige Daten fehlen. Bitte von Hand nachtragen.')
 			# open PDF for user
+			return False
 
 class excel_line:
 	def __init__(self):
@@ -23,30 +24,31 @@ class excel_line:
 		self.eingerichtet = ''
 		self.bemerkung = ''
 		self.zubehoer = ''
+		# creates a list of product_data
+		self.product_list = []
+		self.product = product_data()
 
-	def insert_excel(self, bestellt_von, bestell_Nr, lieferschein_Nr, produkt:product_data, 
+	def insert_excel(self, bestellt_von, bestell_Nr, lieferschein_Nr, product:product_data, 
 				ausgabeschein='', 
 				eingerichtet='', 
 				bemerkung='', 
 				zubehoer=''):
 
-		excel_input = excel_line.__init__()
-		excel_input.besteller = bestellt_von
-		excel_input.betellnummer = bestell_Nr
-		excel_input.lieferschein = lieferschin_Nr
+		self.besteller = bestellt_von
+		self.betellnummer = bestell_Nr
+		self.lieferschein = lieferschein_Nr
+		# intis product_data if not already done
+		if type(product) != product_data:
+			product = product_data()
 
-		if not type(product) == product_data: # Check if Product has product_data
-			# Error :: init Product first
-			product = product_data() # init without data to cause Error after checkout #TODO checkout check
-		else:
-			excel_input.product.model = product.model
-			excel_input.product.menge = product.menge
-			excel_input.product.seriennummer = product.seriennummer
-			excel_input.product.imei = product.imei
-			excel_input.product.pc_name = product.pc_name
-			excel_input.product.mac_addr = product.mac_addr
+			product.model = product.model
+			product.menge = product.menge
+			product.seriennummer = product.seriennummer
+			product.imei = product.imei
+			product.pc_name = product.pc_name
+			product.mac_addr = product.mac_addr
 		
-		excel_input.ausgabeschein = ausgabeseschein
-		excel_input.eingerichtet = eingerichtet
-		excel_input.bemerkung = bemerkung
-		excel_input.zubehoer 		
+		self.ausgabeschein = ausgabeschein
+		self.eingerichtet = eingerichtet
+		self.bemerkung = bemerkung
+		self.zubehoer = zubehoer	
