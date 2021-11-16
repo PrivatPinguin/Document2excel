@@ -11,7 +11,7 @@ processes scanned invoice documents
 5. inserts collected data to excel-sheet
 
 > for internal use:
-> Custom data extracort for PDF - replace the extractor for other PDF content
+> Custom data extractor for PDF - replace the extractor for other PDF content
 
 
 ### TODO
