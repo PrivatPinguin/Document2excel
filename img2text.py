@@ -4,8 +4,12 @@ import numpy as np
 
 
 # NOTE! download and install Tesseract and and to Systemvariables :
-pytesseract.pytesseract.tesseract_cmd = "D:\\Program Files\\Tesseract-OCR\\tesseract.exe"
-
+try:
+	pytesseract.pytesseract.tesseract_cmd = "D:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+except:
+	print("You need to download and install PyTeseract\n\nhttps://software-network.org/client/")
+	input("Press any key to exit.")
+	return
 
 def get_text(image):
     # read image
