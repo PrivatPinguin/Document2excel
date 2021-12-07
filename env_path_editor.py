@@ -2,6 +2,7 @@ class EnvPath:
   def __init__(self):
     self.pytesseract_path = ''
     self.poppler_path = ''
+	  self.excel_path = ''
     import re
     file = open("env.pth", "r")
     text = file.read()
@@ -33,6 +34,17 @@ class EnvPath:
   
   def getPyTessreact(self):
     return self.poppler_path
+  
+  def setPoppler(self, new_poppler_path):
+    self.poppler_path = new_poppler_path 
+    self.__replaceLine__(new_poppler_path, 'POPPLER_PATH')
+
+  def setPyTesseract(self, new_pytesseract_path):
+    self.pytesseract_path = new_pytesseract_path 
+    self.__replaceLine__(new_pytesseract_path, 'PYTESSERACT_PATH')     
+  
+  def self_Update(self):
+    __init__(self)
   
   def setPoppler(self, new_poppler_path):
     self.poppler_path = new_poppler_path 
