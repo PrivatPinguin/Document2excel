@@ -1,4 +1,4 @@
-# Grohe PDF to EXCEL INVOICE Converter
+# PDF to EXCEL INVOICE Converter
 
 processes scanned invoice documents
 
